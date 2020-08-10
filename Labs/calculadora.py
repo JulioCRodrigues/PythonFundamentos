@@ -10,15 +10,15 @@ for i in operacao:
     print(i)
 
 #Aguarda usuário escolher a operação 
-opcao = float(input('Digite a sua operação: 1/2/3/4/: '))
+opcao = float(input('\n Digite a sua operação: 1/2/3/4/: '))
 
-print('\n')
+#Definindo variaveis
+n1 = float(input('\n Digite o primeiro número: '))
+n2 = float(input('\n Digite o segundo número: '))
+
 
 if opcao == 1:
 
-    #Definindo variaveis1
-    n1 = float(input('Digite o primeiro número: '))
-    n2 = float(input('Digite o segundo número: '))
     #Calcula operação soma
     result = n1 + n2
     print('\n')
@@ -26,8 +26,6 @@ if opcao == 1:
 
 elif opcao == 2:
 
-    n1 = float(input('Digite o primeiro número: '))
-    n2 = float(input('Digite o segundo número: '))
     #Calcula subtração
     result = n1 - n2
     print('\n')
@@ -35,8 +33,6 @@ elif opcao == 2:
 
 elif opcao == 3:
 
-    n1 = float(input('Digite o primeiro número: '))
-    n2 = float(input('Digite o segundo número: '))
     #Calcula divisão
     result = n1 / n2
     print('\n')
@@ -44,8 +40,6 @@ elif opcao == 3:
 
 elif opcao == 4:
 
-    n1 = float(input('Digite o primeiro número: '))
-    n2 = float(input('Digite o segundo número: '))
     #Calcula multiplicação
     result = n1 * n2
     print('\n')
